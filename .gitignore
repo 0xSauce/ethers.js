@@ -1,11 +1,8 @@
 node_modules/
-packages/*/node_modules
-packages/*/lib._esm
 .package_node_modules/
 obsolete/
 .DS_Store
 .tmp/
-dist/types/shims/
 shims/*.d.ts
 **/*.swp
 *~
@@ -23,7 +20,5 @@ packages/*/tsconfig.tsbuildinfo
 packages/testcases/input/nameprep/**
 
 .nyc_output/**
-
-output/**
 
 misc/testing/**
